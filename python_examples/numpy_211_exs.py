@@ -55,4 +55,4 @@ arr3d = np.reshape(arr1d, (10, 10, 10))
 arr4d = np.zeros((10, 10, 10, 10))
 arr1d = arr4d.ravel()
 
-print arr1d.shape
+print (arr1d.shape)
