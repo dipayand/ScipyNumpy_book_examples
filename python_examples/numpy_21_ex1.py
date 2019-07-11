@@ -25,9 +25,9 @@ N = 10
 # run the script in as a script.
 # NumPy array broadcasting
 time1 = timeit.timeit('arr * 1.1', 'from __main__ import arr', number=N) / N
-print time1
+print (time1)
 
 # List and custom function for broadcasting
 time2 = timeit.timeit('list_times(larr, 1.1)', 
 	'from __main__ import list_times, larr', number=N) / N
-print time2
+print (time2)
