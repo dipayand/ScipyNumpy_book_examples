@@ -17,7 +17,7 @@ yn = y + 0.9 * np.random.normal(size=len(x))
 popt, pcov = curve_fit(func, x, yn)
 
 #popt returns the best fit values for parameters of the given model (func)
-print popt
+print (popt)
 
 # Plot out the current state of the data and model
 ym = func(x, popt[0], popt[1])
